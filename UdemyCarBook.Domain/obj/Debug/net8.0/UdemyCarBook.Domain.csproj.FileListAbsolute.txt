@@ -1,0 +1,12 @@
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/bin/Debug/net8.0/UdemyCarBook.Domain.deps.json
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/bin/Debug/net8.0/UdemyCarBook.Domain.dll
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/bin/Debug/net8.0/UdemyCarBook.Domain.pdb
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/UdemyCarBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/UdemyCarBook.Domain.AssemblyInfoInputs.cache
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/UdemyCarBook.Domain.AssemblyInfo.cs
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/UdemyCarBook.Domain.csproj.CoreCompileInputs.cache
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/UdemyCarBook.Domain.dll
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/refint/UdemyCarBook.Domain.dll
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/UdemyCarBook.Domain.pdb
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/ref/UdemyCarBook.Domain.dll
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/UdemyCarBook.Domain.csproj.AssemblyReference.cache
