@@ -47,7 +47,7 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.ToTable("Abouts");
                 });
 
-            modelBuilder.Entity("UdemyCarBook.Domain.Entities.Banner", b =>
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.BannerResults", b =>
                 {
                     b.Property<int>("BannerID")
                         .ValueGeneratedOnAdd()

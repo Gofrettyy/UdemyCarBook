@@ -10,3 +10,4 @@
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/UdemyCarBook.Domain.pdb
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/ref/UdemyCarBook.Domain.dll
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/UdemyCarBook.Domain.csproj.AssemblyReference.cache
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/obj/Debug/net8.0/UdemyCarBook.Domain.sourcelink.json

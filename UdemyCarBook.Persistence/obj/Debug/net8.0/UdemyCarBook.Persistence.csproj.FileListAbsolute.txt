@@ -9,7 +9,6 @@
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/obj/Debug/net8.0/UdemyCarBook.Persistence.AssemblyInfoInputs.cache
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/obj/Debug/net8.0/UdemyCarBook.Persistence.AssemblyInfo.cs
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/obj/Debug/net8.0/UdemyCarBook.Persistence.csproj.CoreCompileInputs.cache
-/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/obj/Debug/net8.0/UdemyCarBook.Persistence.csproj.CopyComplete
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/obj/Debug/net8.0/UdemyCarBook.Persistence.dll
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/obj/Debug/net8.0/refint/UdemyCarBook.Persistence.dll
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/obj/Debug/net8.0/UdemyCarBook.Persistence.pdb
@@ -17,3 +16,5 @@
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/obj/Debug/net8.0/ref/UdemyCarBook.Persistence.dll
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/bin/Debug/net8.0/UdemyCarBook.Application.dll
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/bin/Debug/net8.0/UdemyCarBook.Application.pdb
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/obj/Debug/net8.0/UdemyCarBook.Persistence.sourcelink.json
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Persistence/obj/Debug/net8.0/UdemyCar.F7B23CFF.Up2Date

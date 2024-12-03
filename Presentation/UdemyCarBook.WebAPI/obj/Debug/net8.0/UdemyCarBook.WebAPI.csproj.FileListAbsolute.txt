@@ -152,7 +152,6 @@
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.UdemyCarBook.WebAPI.props
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/staticwebassets.pack.json
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/scopedcss/bundle/UdemyCarBook.WebAPI.styles.css
-/Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/UdemyCarBook.WebAPI.csproj.CopyComplete
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/UdemyCarBook.WebAPI.dll
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/refint/UdemyCarBook.WebAPI.dll
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/UdemyCarBook.WebAPI.pdb
@@ -181,3 +180,8 @@
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/bin/Debug/net8.0/UdemyCarBook.Application.dll
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/bin/Debug/net8.0/UdemyCarBook.Application.pdb
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/bin/Debug/net8.0/UdemyCarBook.WebAPI.staticwebassets.endpoints.json
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/UdemyCarBook.WebAPI.sourcelink.json
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/staticwebassets/msbuild.UdemyCarBook.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/UdemyCar.4673777D.Up2Date
