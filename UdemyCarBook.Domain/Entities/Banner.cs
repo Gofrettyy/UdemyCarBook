@@ -2,7 +2,7 @@ namespace UdemyCarBook.Domain.Entities;
 
 public class Banner
 {
-    public int BannerID { get; set; }
+    public int BannerId { get; set; }
     public string Title { get; set; }
     public string Description { get; set; }
     public string VideoDescription { get; set; }

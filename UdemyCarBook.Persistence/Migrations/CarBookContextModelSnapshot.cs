@@ -47,7 +47,7 @@ namespace UdemyCarBook.Persistence.Migrations
                     b.ToTable("Abouts");
                 });
 
-            modelBuilder.Entity("UdemyCarBook.Domain.Entities.BannerResults", b =>
+            modelBuilder.Entity("UdemyCarBook.Domain.Entities.Banner", b =>
                 {
                     b.Property<int>("BannerID")
                         .ValueGeneratedOnAdd()
@@ -60,6 +60,10 @@ namespace UdemyCarBook.Persistence.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("VideoDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
