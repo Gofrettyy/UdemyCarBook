@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UdemyCarBook.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0be700c77c3f23e522c88467f740b7fd239ccf52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72bc2dea1405cfc82edf668e3968bd89ac82ee2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("UdemyCarBook.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UdemyCarBook.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
