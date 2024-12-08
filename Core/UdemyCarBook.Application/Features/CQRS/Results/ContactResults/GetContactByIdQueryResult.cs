@@ -1,6 +1,6 @@
-namespace UdemyCarBook.Domain.Entities;
+namespace UdemyCarBook.Application.Features.CQRS.Results.ContactResults;
 
-public class Contact
+public class GetContactByIdQueryResult
 {
     public int ContactId { get; set; }
     public string Name{ get; set; }
