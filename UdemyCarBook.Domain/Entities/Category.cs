@@ -2,6 +2,6 @@ namespace UdemyCarBook.Domain.Entities;
 
 public class Category
 {
-    public int CategoryID { get; set; }
-    public string Name { get; set; }
+    public int CategoryId { get; set; }
+    public string CategoryName { get; set; }
 }
