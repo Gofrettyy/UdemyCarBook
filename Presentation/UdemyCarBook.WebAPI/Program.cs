@@ -12,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddScoped<CarBookContext>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped(typeof(ICarRepository), typeof(CarRepository));
 
 builder.Services.AddScoped<GetAboutQueryHandler>();
 builder.Services.AddScoped<GetAboutByIdQueryHandler>();
@@ -36,6 +37,7 @@ builder.Services.AddScoped<GetCarByIdQueryHandler>();
 builder.Services.AddScoped<CreateCarCommandHandler>();
 builder.Services.AddScoped<RemoveCarCommandHandler>();
 builder.Services.AddScoped<UpdateCarCommandHandler>();
+builder.Services.AddScoped<GetCarWithBrandQueryHandler>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

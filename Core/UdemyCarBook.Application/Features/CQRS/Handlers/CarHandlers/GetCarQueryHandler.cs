@@ -16,7 +16,8 @@ public class GetCarQueryHandler
     public async Task<List<GetCarQueryResult>> Handle()
     {
         var values = await _repository.GetAllAsync();
-        return values.Select(x => new GetCarQueryResult
+        return values
+            .Select(x => new GetCarQueryResult
         { 
             CarId = x.CarId,
            BrandId = x.BrandId,

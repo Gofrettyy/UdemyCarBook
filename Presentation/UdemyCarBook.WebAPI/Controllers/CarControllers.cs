@@ -15,14 +15,16 @@ public class CarControllers:Controller
     private readonly CreateCarCommandHandler _createCarCommandHandler;
     private readonly RemoveCarCommandHandler _removeCarCommandHandler;
     private readonly UpdateCarCommandHandler _updateCarCommandHandler;
+    private readonly GetCarWithBrandQueryHandler _getCarWithBrandQueryHandler;
 
-    public CarControllers(GetCarQueryHandler getCarQueryHandler, GetCarByIdQueryHandler getCarByIdQueryHandler, CreateCarCommandHandler createCarCommandHandler, RemoveCarCommandHandler removeCarCommandHandler, UpdateCarCommandHandler updateCarCommandHandler)
+    public CarControllers(GetCarQueryHandler getCarQueryHandler, GetCarByIdQueryHandler getCarByIdQueryHandler, CreateCarCommandHandler createCarCommandHandler, RemoveCarCommandHandler removeCarCommandHandler, UpdateCarCommandHandler updateCarCommandHandler, GetCarWithBrandQueryHandler getCarWithBrandQueryHandler)
     {
         _getCarQueryHandler = getCarQueryHandler;
         _getCarByIdQueryHandler = getCarByIdQueryHandler;
         _createCarCommandHandler = createCarCommandHandler;
         _removeCarCommandHandler = removeCarCommandHandler;
         _updateCarCommandHandler = updateCarCommandHandler;
+        _getCarWithBrandQueryHandler = getCarWithBrandQueryHandler;
     }
     [HttpGet]
     public async Task<IActionResult> CarList()
@@ -62,4 +64,12 @@ public class CarControllers:Controller
         await _updateCarCommandHandler.Handle(command);
         return Ok("Car Updated");
     }
+    
+    [HttpGet("GetCarsWithBrands")]
+    public IActionResult GetCarsWithBrands()
+    {
+        var values =  _getCarWithBrandQueryHandler.Handle();
+        return Ok(values);
+    }
+
 }
