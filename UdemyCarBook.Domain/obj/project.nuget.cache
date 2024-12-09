@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "PC3DbgAyTF0=",
+  "dgSpecHash": "1QiX1vBvOJo=",
   "success": true,
   "projectFilePath": "/Users/naznehiralicavus/RiderProjects/UdemyCarBook/UdemyCarBook.Domain/UdemyCarBook.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/naznehiralicavus/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/naznehiralicavus/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
+    "/Users/naznehiralicavus/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/Users/naznehiralicavus/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/naznehiralicavus/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/naznehiralicavus/.nuget/packages/microsoft.bcl.cryptography/9.0.0/microsoft.bcl.cryptography.9.0.0.nupkg.sha512",
     "/Users/naznehiralicavus/.nuget/packages/microsoft.data.sqlclient/6.0.0-preview3.24332.3/microsoft.data.sqlclient.6.0.0-preview3.24332.3.nupkg.sha512",

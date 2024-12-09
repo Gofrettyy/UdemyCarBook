@@ -185,3 +185,6 @@
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/staticwebassets.build.endpoints.json
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/staticwebassets/msbuild.UdemyCarBook.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 /Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/obj/Debug/net8.0/UdemyCar.4673777D.Up2Date
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/bin/Debug/net8.0/MediatR.dll
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/bin/Debug/net8.0/MediatR.Contracts.dll
+/Users/naznehiralicavus/RiderProjects/UdemyCarBook/Presentation/UdemyCarBook.WebAPI/bin/Debug/net8.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
