@@ -1,7 +1,7 @@
 using MediatR;
-using UdemyCarBook.Application.Features.Mediator.Results.FeatureResult;
+using UdemyCarBook.Application.Features.Mediator.Results.FeatureResults;
 
-namespace UdemyCarBook.Application.Features.Mediator.Queries.FeatureQuery;
+namespace UdemyCarBook.Application.Features.Mediator.Queries.FeatureQueries;
 
 public class GetFeatureByIdQuery :IRequest<GetFeatureByIdQueryResult>
 {

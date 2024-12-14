@@ -1,5 +1,5 @@
 using MediatR;
-using UdemyCarBook.Application.Features.Mediator.Results.FeatureResult;
+using UdemyCarBook.Application.Features.Mediator.Results.FeatureResults;
 
 namespace UdemyCarBook.Application.Features.Mediator.Queries.FeatureQuery;
 

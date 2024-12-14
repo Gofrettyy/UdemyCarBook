@@ -1,6 +1,6 @@
 using MediatR;
 using UdemyCarBook.Application.Features.Mediator.Queries.FeatureQuery;
-using UdemyCarBook.Application.Features.Mediator.Results.FeatureResult;
+using UdemyCarBook.Application.Features.Mediator.Results.FeatureResults;
 using UdemyCarBook.Application.Interfaces;
 using UdemyCarBook.Domain.Entities;
 

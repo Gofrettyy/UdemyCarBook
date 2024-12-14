@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using UdemyCarBook.Application.Features.Mediator.Commands.FeatureCommands;
+using UdemyCarBook.Application.Features.Mediator.Queries.FeatureQueries;
 using UdemyCarBook.Application.Features.Mediator.Queries.FeatureQuery;
 
 namespace UdemyCarBook.WebAPI.Controllers;

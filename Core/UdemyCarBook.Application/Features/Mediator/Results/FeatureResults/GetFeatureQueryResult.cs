@@ -1,4 +1,4 @@
-namespace UdemyCarBook.Application.Features.Mediator.Results.FeatureResult;
+namespace UdemyCarBook.Application.Features.Mediator.Results.FeatureResults;
 
 public class GetFeatureQueryResult
 {
