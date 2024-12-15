@@ -6,7 +6,7 @@ using UdemyCarBook.Application.Features.CQRS.Queries.ContactQueries;
 namespace UdemyCarBook.WebAPI.Controllers;
 [ApiController]
 [Route("api/[controller]")]
-public class ContactControllers : Controller
+public class ContactsController : Controller
 {
    private readonly GetContactQueryHandler _getContactQueryHandler;
    private readonly GetContactByIdQueryHandler _getContactByIdQueryHandler;
@@ -14,7 +14,7 @@ public class ContactControllers : Controller
    private readonly UpdateContactCommandHandler _updateContactCommandHandler;
    private readonly RemoveContactCommandHandler _removeContactCommandHandler;
 
-   public ContactControllers(GetContactQueryHandler getContactQueryHandler, GetContactByIdQueryHandler getContactByIdQueryHandler, CreateContactCommandHandler createContactCommandHandler, UpdateContactCommandHandler updateContactCommandHandler, RemoveContactCommandHandler removeContactCommandHandler)
+   public ContactsController(GetContactQueryHandler getContactQueryHandler, GetContactByIdQueryHandler getContactByIdQueryHandler, CreateContactCommandHandler createContactCommandHandler, UpdateContactCommandHandler updateContactCommandHandler, RemoveContactCommandHandler removeContactCommandHandler)
    {
       _getContactQueryHandler = getContactQueryHandler;
       _getContactByIdQueryHandler = getContactByIdQueryHandler;

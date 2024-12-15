@@ -69,7 +69,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.MapControllers(); //Tanımlı Controller'lara giden HTTP isteklerini eşler.
-                      // Örneğin, /api/About gibi bir URL'ye yapılan istek, AboutController'da tanımlanan bir endpoint'e yönlendirilir.
+                      // Örneğin, /api/About gibi bir URL'ye yapılan istek, AboutsController'da tanımlanan bir endpoint'e yönlendirilir.
 app.UseHttpsRedirection();
 app.Run();
 

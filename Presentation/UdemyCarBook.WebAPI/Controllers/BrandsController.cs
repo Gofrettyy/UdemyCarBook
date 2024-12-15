@@ -6,7 +6,7 @@ using UdemyCarBook.Application.Features.CQRS.Queries.BrandQueries;
 namespace UdemyCarBook.WebAPI.Controllers;
 [ApiController]
 [Route("api/[controller]")]
-public class BrandControllers : Controller
+public class BrandsController : Controller
 {
    private readonly GetBrandQueryHandler _getBrandQueryHandler;
    private readonly GetBrandByIdQueryHandler _getBrandByIdQueryHandler;
@@ -15,7 +15,7 @@ public class BrandControllers : Controller
    private readonly RemoveBrandCommandHandler _removeBrandCommandHandler;
 
 
-   public BrandControllers(GetBrandQueryHandler getBrandQueryHandler, GetBrandByIdQueryHandler getBrandByIdQueryHandler, CreateBrandCommandHandler createBrandCommandHandler, UpdateBrandCommandHandler updateBrandCommandHandler, RemoveBrandCommandHandler removeBrandCommandHandler)
+   public BrandsController(GetBrandQueryHandler getBrandQueryHandler, GetBrandByIdQueryHandler getBrandByIdQueryHandler, CreateBrandCommandHandler createBrandCommandHandler, UpdateBrandCommandHandler updateBrandCommandHandler, RemoveBrandCommandHandler removeBrandCommandHandler)
    {
       _getBrandQueryHandler = getBrandQueryHandler;
       _getBrandByIdQueryHandler = getBrandByIdQueryHandler;

@@ -6,11 +6,11 @@ using UdemyCarBook.Application.Features.Mediator.Queries.LocationQueries;
 namespace UdemyCarBook.WebAPI.Controllers;
 [ApiController]
 [Route("api/[controller]")]
-public class LocationControllers : Controller
+public class LocationsController : Controller
 {
     private readonly IMediator _mediator;
 
-    public LocationControllers(IMediator mediator)
+    public LocationsController(IMediator mediator)
     {
         _mediator = mediator;
     }

@@ -8,11 +8,11 @@ namespace UdemyCarBook.WebAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class FooterAddressControllers : Controller
+public class FooterAddressesController : Controller
 {
     private readonly IMediator _mediator;
 
-    public FooterAddressControllers(IMediator mediator)
+    public FooterAddressesController(IMediator mediator)
     {
         _mediator = mediator;
     }

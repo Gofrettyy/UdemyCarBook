@@ -7,11 +7,11 @@ using UdemyCarBook.Application.Features.Mediator.Queries.FeatureQuery;
 namespace UdemyCarBook.WebAPI.Controllers;
 [ApiController]
 [Route("api/[controller]")]
-public class FeatureControllers : Controller
+public class FeaturesController : Controller
 {
    private readonly IMediator _mediator;
 
-   public FeatureControllers(IMediator mediator)
+   public FeaturesController(IMediator mediator)
    {
       _mediator = mediator;
    }

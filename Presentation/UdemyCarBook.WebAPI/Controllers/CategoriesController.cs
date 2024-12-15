@@ -7,7 +7,7 @@ using UdemyCarBook.Application.Features.CQRS.Queries.CategoryQueries;
 namespace UdemyCarBook.WebAPI.Controllers;
 [ApiController]
 [Route("api/[controller]")]
-public class CategoryControllers : Controller
+public class CategoriesController : Controller
 {
     private readonly GetCategoryQueryHandler _getCategoryQueryHandler;
     private readonly GetCategoryByIdQueryHandler _getCategoryByIdQueryHandler;
@@ -15,7 +15,7 @@ public class CategoryControllers : Controller
     private readonly UpdateCategoryCommandHandler _updateCategoryCommandHandler;
     private readonly RemoveCategoryCommandHandler _removeCategoryCommandHandler;
 
-    public CategoryControllers(GetCategoryQueryHandler getCategoryQueryHandler, GetCategoryByIdQueryHandler getCategoryByIdQueryHandler, CreateCategoryCommandHandler createCategoryCommandHandler, UpdateCategoryCommandHandler updateCategoryCommandHandler, RemoveCategoryCommandHandler removeCategoryCommandHandler)
+    public CategoriesController(GetCategoryQueryHandler getCategoryQueryHandler, GetCategoryByIdQueryHandler getCategoryByIdQueryHandler, CreateCategoryCommandHandler createCategoryCommandHandler, UpdateCategoryCommandHandler updateCategoryCommandHandler, RemoveCategoryCommandHandler removeCategoryCommandHandler)
     {
         _getCategoryQueryHandler = getCategoryQueryHandler;
         _getCategoryByIdQueryHandler = getCategoryByIdQueryHandler;

@@ -8,7 +8,7 @@ using UdemyCarBook.Application.Features.CQRS.Queries.CarQueries;
 namespace UdemyCarBook.WebAPI.Controllers;
 [ApiController]
 [Route("api/[controller]")]
-public class CarControllers:Controller
+public class CarsController:Controller
 {
     private readonly GetCarQueryHandler _getCarQueryHandler;
     private readonly GetCarByIdQueryHandler _getCarByIdQueryHandler;
@@ -17,7 +17,7 @@ public class CarControllers:Controller
     private readonly UpdateCarCommandHandler _updateCarCommandHandler;
     private readonly GetCarWithBrandQueryHandler _getCarWithBrandQueryHandler;
 
-    public CarControllers(GetCarQueryHandler getCarQueryHandler, GetCarByIdQueryHandler getCarByIdQueryHandler, CreateCarCommandHandler createCarCommandHandler, RemoveCarCommandHandler removeCarCommandHandler, UpdateCarCommandHandler updateCarCommandHandler, GetCarWithBrandQueryHandler getCarWithBrandQueryHandler)
+    public CarsController(GetCarQueryHandler getCarQueryHandler, GetCarByIdQueryHandler getCarByIdQueryHandler, CreateCarCommandHandler createCarCommandHandler, RemoveCarCommandHandler removeCarCommandHandler, UpdateCarCommandHandler updateCarCommandHandler, GetCarWithBrandQueryHandler getCarWithBrandQueryHandler)
     {
         _getCarQueryHandler = getCarQueryHandler;
         _getCarByIdQueryHandler = getCarByIdQueryHandler;
